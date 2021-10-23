@@ -2,56 +2,43 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-	
-	<title>Frontend Mentor | Profile card component</title>
-
-	<link rel="stylesheet" href="BootStrap 4.5/bootstrap.min.css">
-	<script src="BootStrap 4.5/bootstrap.min.js"></script>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Profile Card Component</title>
 	<link rel="stylesheet" href="styles.css">
-	<style>
-		.attribution { font-size: 11px; text-align: center; }
-		.attribution a { color: hsl(228, 45%, 44%); }
-	</style>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
 </head>
-<body class="d-flex flex-row justify-content-center align-items-center overflow-hidden">
-	<img src="images/bg-pattern-top.svg" alt="" id="topDesign">
-	<section id="card" class="d-flex justify-content-center">
-		<div class="container">
-			<div class="col">
-				<div class="card">
-					<img src="images/bg-pattern-card.svg" alt="Cover Photo" class="card-img-top">
-					<div class="card-body text-center">
-						<img src="images/image-victor.jpg" alt="Profile Photo" class="rounded-circle" id="dp">
-						<h5 class="card-title font-weight-bold">Victor Crest <span>26</span></h5>
-						<h6>London</h6>
-					</div>
-					<ul class="list-group list-group-flush">
-						<li class="d-flex justify-content-around">
-							<div>
-								<p>80K</p>
-								<p>Followers</p>
-							</div>
-							<div>
-								<p>803K</p>
-								<p>Likes</p>
-							</div>
-							<div>
-								<p>1.4K</p>
-								<p>Photos</p>
-							</div>
-						</li>
-					</ul>
-					
+<body class="bg-backgroundBlue font-kumbhSans flex h-screen">
+	<div id="Card" class="bg-white rounded-xl inline mx-auto my-auto">
+		<div id="Pattern" class="">
+			<img src="images/bg-pattern-card.svg" alt="Card Pattern" class="rounded-t-xl" >
+		</div>
+		<div id="Photo" class="flex justify-center">
+			<img src="images/image-victor.jpg" alt="Victor Image" class="rounded-full relative -top-12 border-8 border-white">
+		</div>
+		<div id="Body" class="text-center">
+			<div id="Name" class="text-lg pt-6 -mt-14">
+				<span class="text-darkBlue font-bold">Victor Crest</span>
+				<span class="text-lightGray">26</span>
+			</div>
+			<div id="Location" class="text-lightBlue pt-2 pb-6 text-sm">London</div>
+			<div class="grid grid-cols-3 border-t-2 border-opacity-50 p-6">
+				<div class="">
+					<p class="text-darkBlue font-bold text-lg">80K</p>
+					<p class="tracking-widest text-lightBlue text-xs">Followers</p>
+				</div>
+				<div class="">
+					<p class="text-darkBlue font-bold text-lg">803K</p>
+					<p class="tracking-widest text-lightBlue text-xs">Likes</p>
+				</div>
+				<div class="">
+					<p class="text-darkBlue font-bold text-lg">1.4K</p>
+					<p class="tracking-widest text-lightBlue text-xs">Photos</p>
 				</div>
 			</div>
 		</div>
-	</section>
-	<img src="images/bg-pattern-bottom.svg" alt="" id="bottomDesign">
+	</div>
 </body>
 </html>
