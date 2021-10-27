@@ -1,15 +1,4 @@
-/*! tailwindcss v2.2.17 | MIT License | https://tailwindcss.com */
 
-/*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
-
-/*
-Document
-========
-*/
-
-/**
-Use a better box model (opinionated).
-*/
 
 *,
 ::before,
@@ -17,9 +6,6 @@ Use a better box model (opinionated).
   box-sizing: border-box;
 }
 
-/**
-Use a more readable tab size (opinionated).
-*/
 
 html {
   -moz-tab-size: 4;
@@ -27,10 +13,7 @@ html {
      tab-size: 4;
 }
 
-/**
-1. Correct the line height in all browsers.
-2. Prevent adjustments of font size after orientation changes in iOS.
-*/
+
 
 html {
   line-height: 1.15;
@@ -39,22 +22,12 @@ html {
   /* 2 */
 }
 
-/*
-Sections
-========
-*/
-
-/**
-Remove the margin in all browsers.
-*/
 
 body {
   margin: 0;
 }
 
-/**
-Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
-*/
+
 
 body {
   font-family:
@@ -69,15 +42,7 @@ body {
 		'Segoe UI Emoji';
 }
 
-/*
-Grouping content
-================
-*/
 
-/**
-1. Add the correct height in Firefox.
-2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
-*/
 
 hr {
   height: 0;
@@ -86,33 +51,20 @@ hr {
   /* 2 */
 }
 
-/*
-Text-level semantics
-====================
-*/
 
-/**
-Add the correct text decoration in Chrome, Edge, and Safari.
-*/
 
 abbr[title] {
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted;
 }
 
-/**
-Add the correct font weight in Edge and Safari.
-*/
 
 b,
 strong {
   font-weight: bolder;
 }
 
-/**
-1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
-2. Correct the odd 'em' font sizing in all browsers.
-*/
+
 
 code,
 kbd,
@@ -130,17 +82,12 @@ pre {
   /* 2 */
 }
 
-/**
-Add the correct font size in all browsers.
-*/
 
 small {
   font-size: 80%;
 }
 
-/**
-Prevent 'sub' and 'sup' elements from affecting the line height in all browsers.
-*/
+
 
 sub,
 sup {
@@ -158,15 +105,7 @@ sup {
   top: -0.5em;
 }
 
-/*
-Tabular data
-============
-*/
 
-/**
-1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
-2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
-*/
 
 table {
   text-indent: 0;
@@ -175,15 +114,7 @@ table {
   /* 2 */
 }
 
-/*
-Forms
-=====
-*/
 
-/**
-1. Change the font styles in all browsers.
-2. Remove the margin in Firefox and Safari.
-*/
 
 button,
 input,
@@ -200,10 +131,7 @@ textarea {
   /* 2 */
 }
 
-/**
-Remove the inheritance of text transform in Edge and Firefox.
-1. Remove the inheritance of text transform in Firefox.
-*/
+
 
 button,
 select {
@@ -211,9 +139,7 @@ select {
   text-transform: none;
 }
 
-/**
-Correct the inability to style clickable types in iOS and Safari.
-*/
+
 
 button {
   -webkit-appearance: button;
